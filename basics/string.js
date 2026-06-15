@@ -8,7 +8,7 @@
 /*
 *********** String Methods ************
 */
-const newName = new String("RupjitShil")
+const newName = new String("Rupjit-Shil")
 
 // console.log(newName.toUpperCase());
 // console.log(newName.length);
@@ -32,3 +32,4 @@ const url = 'https://rohan%300softy.com'
 
 console.log(url.replace('%300', '-'));
 console.log(url.includes("rohan"));
+console.log(newName.split('-'));
